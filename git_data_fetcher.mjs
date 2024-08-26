@@ -258,6 +258,9 @@ const languages_icons = {
   PHP: "logos-php",
   Dockerfile: "simple-icons:docker",
   Rust: "logos-rust",
+  React: "logos-react",
+  Node: "logos:nodejs",
+  MongoDB: "logos-mongodb",
 };
 
 fetch(baseUrl, {
