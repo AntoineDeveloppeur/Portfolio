@@ -6,6 +6,12 @@
       "createdAt": "",
       "url": "https://antoinedeveloppeur.github.io/Booki/",
       "description": "Création du site web à partir de la maquette. Il s'agissait de renforcer les acquis en Css et HTML. le site n'est pas fonctionnel, il s'agit de reproduire le modèle graphique",
+      "descriptionInModal": ">Un résumé du projet qui dit si ça a été fait avec du front ou du bakc, en partant d’une maquette pour le compte de l’école",
+      "keySkill": [
+        "⚡ Je définis votre image de marque avec des palettes de couleurs, des typographies et des styles uniques",
+        "⚡ Je conçois des maquettes de sites web élégantes et captivantes qui reflètent votre identité",
+        "⚡ Expérience optimisée pour toutes les tailles d'écrans : mobile, tablette et bureau"
+      ],
       "isFork": false,
       "languages": [
         {

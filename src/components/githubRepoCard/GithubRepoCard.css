@@ -93,6 +93,10 @@
   margin-right: 0px;
 }
 
+.modal-screenshots {
+  cursor: pointer;
+}
+
 @media (max-width: 1200px) {
   .repo-card-div {
     flex: 1 1 40%;

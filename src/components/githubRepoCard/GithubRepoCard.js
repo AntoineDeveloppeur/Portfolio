@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ProjectLanguages from "../../components/projectLanguages/ProjectLanguages";
 import "./GithubRepoCard.css";
 import { Fade } from "react-reveal";
+import Modal from "react-modal";
+import Button from "../button/Button";
 
 export default function GithubRepoCard({ repo, theme }) {
   function openRepoinNewTab(url) {
@@ -9,10 +11,40 @@ export default function GithubRepoCard({ repo, theme }) {
     win.focus();
   }
 
+  // Définir le root element pour la modal
+  Modal.setAppElement("#root");
+
+  // État pour gérer l'ouverture et la fermeture de la modal
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  console.log("modalIsOpen", modalIsOpen);
+
+  // Fonction pour ouvrir la modal
+  const openModal = () => {
+    console.log("fonction openModal appelé");
+    setModalIsOpen(true);
+  };
+
+  // Fonction pour fermer la modal
+  const closeModal = (e) => {
+    console.log("fonction closeModal appelé");
+    setModalIsOpen(false);
+    e.stopPropagation();
+  };
+
+  const goToWebsite = (e) => {
+    window.open(repo.url, "_blank");
+    e.stopPropagation();
+  };
+
+  useEffect(() => {
+    console.log("modalIsOpen après mise à jour :", modalIsOpen);
+  }, [modalIsOpen]);
+
   return (
     <div className="repo-card-div" style={{ backgroundColor: theme.highlight }}>
       <Fade bottom duration={2000} distance="40px">
-        <div key={repo.id} onClick={() => openRepoinNewTab(repo.url)}>
+        {/* <div key={repo.id} onClick={() => openRepoinNewTab(repo.url)}> */}
+        <div key={repo.id} onClick={openModal}>
           <div className="repo-name-div">
             <svg
               aria-hidden="true"
@@ -40,6 +72,48 @@ export default function GithubRepoCard({ repo, theme }) {
               logos={repo.languages}
             />
           </div>
+          <Modal
+            isOpen={modalIsOpen}
+            onRequestClose={closeModal}
+            contentLabel="Exemple de Modal"
+            className="Modal"
+            overlayClassName="Overlay"
+          >
+            <div className="modal-screenshots" onClick={goToWebsite}>
+              Contenu
+            </div>
+            <Button
+              text="Visiter le site"
+              newTab={true}
+              // href={greeting.resumeLink}
+              theme={theme}
+            />
+            <button onClick={closeModal}>Fermer</button>
+          </Modal>
+
+          {/* Styles en ligne pour simplifier l'exemple */}
+          <style jsx>{`
+            .Modal {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              margin: auto;
+              background: white;
+              padding: 20px;
+              border-radius: 4px;
+              box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .Overlay {
+              position: fixed;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: rgba(0, 0, 0, 0.5);
+            }
+          `}</style>
           {/* <div className="repo-stats">
           <div className="repo-left-stat">
             <span>
