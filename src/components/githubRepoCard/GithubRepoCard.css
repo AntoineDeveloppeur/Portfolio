@@ -93,8 +93,26 @@
   margin-right: 0px;
 }
 
+.modal {
+  width: 1000px;
+  max-width: 80vw;
+  height: 600px;
+  max-height: 90vh;
+  display: flex;
+}
+
 .modal-screenshots {
   cursor: pointer;
+  flex: 1;
+}
+
+.modal-rightPanel {
+  flex: 1;
+}
+
+.modal-links {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 1200px) {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+// import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
@@ -28,9 +28,11 @@ class Education extends Component {
                 <EducationImg theme={theme} />
               </div>
               <div className="heading-text-div">
+                {/* eslint-disable-next-line*/}
                 <h1 className="heading-text" style={{ color: theme.text }}>
                   Diplômes
                 </h1>
+                {/* eslint-disable-next-line*/}
                 <h3
                   className="heading-sub-text"
                   style={{ color: theme.text }}

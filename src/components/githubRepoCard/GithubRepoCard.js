@@ -6,17 +6,19 @@ import Modal from "react-modal";
 import Button from "../button/Button";
 
 export default function GithubRepoCard({ repo, theme }) {
-  function openRepoinNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
+  // function openRepoinNewTab(url) {
+  //   var win = window.open(url, "_blank");
+  //   win.focus();
+  // }
+
+  console.log("repo.keySkills", repo.keySkills);
+  console.log("repo", repo);
 
   // Définir le root element pour la modal
   Modal.setAppElement("#root");
 
   // État pour gérer l'ouverture et la fermeture de la modal
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  console.log("modalIsOpen", modalIsOpen);
 
   // Fonction pour ouvrir la modal
   const openModal = () => {
@@ -26,7 +28,6 @@ export default function GithubRepoCard({ repo, theme }) {
 
   // Fonction pour fermer la modal
   const closeModal = (e) => {
-    console.log("fonction closeModal appelé");
     setModalIsOpen(false);
     e.stopPropagation();
   };
@@ -35,10 +36,6 @@ export default function GithubRepoCard({ repo, theme }) {
     window.open(repo.url, "_blank");
     e.stopPropagation();
   };
-
-  useEffect(() => {
-    console.log("modalIsOpen après mise à jour :", modalIsOpen);
-  }, [modalIsOpen]);
 
   return (
     <div className="repo-card-div" style={{ backgroundColor: theme.highlight }}>
@@ -80,14 +77,35 @@ export default function GithubRepoCard({ repo, theme }) {
             overlayClassName="Overlay"
           >
             <div className="modal-screenshots" onClick={goToWebsite}>
-              Contenu
+              Ensemble des sites internet
             </div>
-            <Button
-              text="Visiter le site"
-              newTab={true}
-              // href={greeting.resumeLink}
-              theme={theme}
-            />
+            <div className="modal-rightPanel">
+              <h1>{repo.name}</h1>
+              <p>{repo.descriptionInModal}</p>
+              <ProjectLanguages
+                className="repo-languages"
+                logos={repo.languages}
+              />
+              <div className="modal-links">
+                <Button
+                  text="Visiter le site"
+                  newTab={true}
+                  // href={greeting.resumeLink}
+                  theme={theme}
+                />
+                <a href={repo.github}>
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <h2>Compétences clés</h2>
+              {repo.keySkills && (
+                <div className="modal-skills">
+                  {repo.keySkills.map((skillSentence, i) => {
+                    return <p key={repo.name + i}>{skillSentence}</p>;
+                  })}
+                </div>
+              )}
+            </div>
             <button onClick={closeModal}>Fermer</button>
           </Modal>
 
