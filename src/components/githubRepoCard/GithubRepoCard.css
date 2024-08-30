@@ -95,19 +95,95 @@
 
 .modal {
   width: 1000px;
-  max-width: 80vw;
+  max-width: 90vw;
   height: 600px;
   max-height: 90vh;
   display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: scroll;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .modal-screenshots {
-  cursor: pointer;
   flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.modal-screenshots-mobile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.modal-screenshots-desktop {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.modal-screenshots-desktop {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.modal-screnshots-desktop img:nth-child(odd) {
+  width: 100%;
+  object-fit: fill;
+}
+
+.modal-screnshots-mobile img:nth-child(odd) {
+  width: 200px;
+  grid-column: 1;
+  object-fit: fill;
+}
+
+.modal-screnshots-mobile img:nth-child(even) {
+  grid-column: 2;
+  object-fit: contain;
+}
+img {
+  width: 100%;
+
+  object-fit: fill;
 }
 
 .modal-rightPanel {
   flex: 1;
+  position: relative;
+  margin-left: 20px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.modal-title {
+  line-height: 2.3rem;
 }
 
 .modal-links {

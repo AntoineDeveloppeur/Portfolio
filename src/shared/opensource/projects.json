@@ -13,6 +13,15 @@
         "⚡ Je conçois des maquettes de sites web élégantes et captivantes qui reflètent votre identité",
         "⚡ Expérience optimisée pour toutes les tailles d'écrans : mobile, tablette et bureau"
       ],
+      "screenshotsDesktopLink": [
+        "booki_desktop.jpg",
+        "booki_desktop2.jpg"
+      ],
+      "screenshotsMobileLink": [
+        "booki_mobile.jpg",
+        "booki_mobile2.jpg",
+        "booki_mobile3.jpg"
+      ],
       "isFork": false,
       "languages": [
         {
