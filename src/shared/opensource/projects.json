@@ -1,49 +1,27 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "Booki - réservation de logement en ligne",
-      "createdAt": "",
-      "url": "https://antoinedeveloppeur.github.io/Booki/",
-      "github": "https://antoinedeveloppeur.github.io/Booki/",
-      "description": "Création du site web à partir de la maquette. Il s'agissait de renforcer les acquis en Css et HTML. le site n'est pas fonctionnel, il s'agit de reproduire le modèle graphique",
-      "descriptionInModal": "Un résumé du projet qui dit si ça a été fait avec du front ou du bakc, en partant d’une maquette pour le compte de l’école",
-      "keySkills": [
-        "⚡ Je définis votre image de marque avec des palettes de couleurs, des typographies et des styles uniques",
-        "⚡ Je conçois des maquettes de sites web élégantes et captivantes qui reflètent votre identité",
-        "⚡ Expérience optimisée pour toutes les tailles d'écrans : mobile, tablette et bureau"
-      ],
-      "screenshotsDesktopLink": [
-        "booki_desktop.jpg",
-        "booki_desktop2.jpg"
-      ],
-      "screenshotsMobileLink": [
-        "booki_mobile.jpg",
-        "booki_mobile2.jpg",
-        "booki_mobile3.jpg"
-      ],
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
       "id": "R_kgDOG_vYHA",
       "name": "Kasa - application web de location immobilière",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://antoinedeveloppeur.github.io/Kasa/",
-      "description": "Développement d'une application avec React, mise en oeuvre d'animation Css, interface web faite avec Sass",
+      "github": "https://github.com/AntoineDeveloppeur/Kasa.git",
+      "description": "Développement frontend avec React",
+      "descriptionInModal": "Dans ce projet d'étude, j'ai implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
+      "keySkills": [
+        "⚡ Configurer la navigation entre les pages de l'application avec React Router",
+        "⚡ Développer des éléments de l'interface d'un site web grâce à des composants React",
+        "⚡ Mettre en œuvre des animations CSS",
+        "⚡ Développer une interface web avec Sass",
+        "⚡ Utiliser les hooks useState, useEffect, useParams et hooks personnalisés"
+      ],
+      "screenshotsDesktopLink": [
+        "kasa_desktop.jpg",
+        "kasa_desktop2.jpg"
+      ],
+      "screenshotsMobileLink": [
+        "kasa_mobile.jpg"
+      ],
       "isFork": false,
       "languages": [
         {
@@ -57,6 +35,102 @@
         {
           "name": "Sass",
           "iconifyClass": "logos-sass"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vUHI",
+      "name": "Mon Vieux Grimoire - application web de notation de libre",
+      "createdAt": "2022-03-13T20:41:33Z",
+      "github": "https://github.com/AntoineDeveloppeur/mon-vieux-grimoire.git",
+      "description": "Créer un serveur avec Express et de le connecter à une base de données MongoDB",
+      "descriptionInModal": "Dans ce projet d'étude, mon rôle a été de créer un serveur avec Express et de le connecter à une base de données MongoDB. J'ai mis en place la structure du serveur et la gestion de la communcation entre le serveur et la base de données",
+      "keySkills": [
+        "⚡ Implémenter un modèle logique de données conformément à la réglementation",
+        "⚡ Mettre en œuvre des opérations CRUD de manière sécurisée",
+        "⚡ Stocker des données de manière sécurisée",
+        "⚡ Librairies utilisés : JSONWebToken, sharp, multer"
+      ],
+      "screenshotsDesktopLink": [
+        "mon_vieux_grimoire.jpg",
+        "mon_vieux_grimoire2.jpg"
+      ],
+      "isFork": false,
+      "languages": [
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb"
+        },
+        {
+          "name": "Node",
+          "iconifyClass": "logos:nodejs"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOJWL0-g",
+      "name": "Booki - réservation de logement en ligne",
+      "createdAt": "",
+      "url": "https://antoinedeveloppeur.github.io/Booki/",
+      "github": "https://antoinedeveloppeur.github.io/Booki/",
+      "description": "Intégrer la page d'accueil d'une agence de voyage.",
+      "descriptionInModal": "Dans ce projet d'étude, j'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS. Le site n'est pas fonctionnel, il s'agissait de reproduire une maquette",
+      "keySkills": [
+        "⚡ Implémenter une interface responsive avec HTML et CSS",
+        "⚡ Intégrer du contenu conformément à une maquette avec HTML et CSS",
+        "⚡ Valider la qualité du code avec W3C"
+      ],
+      "screenshotsDesktopLink": [
+        "booki_desktop.jpg",
+        "booki_desktop2.jpg"
+      ],
+      "screenshotsMobileLink": [
+        "booki_mobile.jpg",
+        "booki_mobile2.jpg"
+      ],
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vLHB",
+      "name": "Nina Carducci - Photographe",
+      "createdAt": "2022-03-13T20:41:33Z",
+      "url": "https://antoinedeveloppeur.github.io/nina-carducci/",
+      "github": "https://github.com/AntoineDeveloppeur/nina-carducci.git",
+      "description": "Débuggage et optimisation d'un site de photographe",
+      "descriptionInModal": "Dans ce projet d'étude, j'ai pris le rôle d'un développeur freelance afin d'optimiser le référencement d’un site, en améliorant sa performance et son accessibilité.",
+      "keySkills": [
+        "⚡ Optimiser les performances avec Lighthouse en travaillant sur les images, les balises superflus...",
+        "⚡ Débugger un site web grâce aux Chrome DevTools",
+        "⚡ Optimiser le référencement local grâce au micro-données",
+        "⚡ Utiliser les balises méta des réseaux sociaux",
+        "⚡ Améliorer l'accessibilité en aidant les lecteurs d'écran"
+      ],
+      "screenshotsDesktopLink": [
+        "nina_carducci_desktop.jpg",
+        "nina_carducci_desktop2.jpg"
+      ],
+      "screenshotsMobileLink": [
+        "nina_carducci_mobile.jpg"
+      ],
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
         }
       ]
     }

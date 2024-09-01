@@ -11,9 +11,6 @@ export default function GithubRepoCard({ repo, theme }) {
   //   win.focus();
   // }
 
-  console.log("repo.keySkills", repo.keySkills);
-  console.log("repo", repo);
-
   // Définir le root element pour la modal
   Modal.setAppElement("#root");
 
@@ -22,18 +19,19 @@ export default function GithubRepoCard({ repo, theme }) {
 
   // Fonction pour ouvrir la modal
   const openModal = () => {
-    console.log("fonction openModal appelé");
     setModalIsOpen(true);
+    setTimeout(() => {
+      console.log();
+      const modalContent = document.querySelector(".modal-title"); // Assurez-vous de cibler le bon élément
+      if (modalContent) {
+        modalContent.scrollTop = modalContent.scrollHeight; // Scroll au sommet du contenu
+      }
+    }, 0);
   };
 
   // Fonction pour fermer la modal
   const closeModal = (e) => {
     setModalIsOpen(false);
-    e.stopPropagation();
-  };
-
-  const goToWebsite = (e) => {
-    window.open(repo.url, "_blank");
     e.stopPropagation();
   };
 
@@ -102,23 +100,25 @@ export default function GithubRepoCard({ repo, theme }) {
                 onClick={closeModal}
               ></i>
               <h1 className="modal-title">{repo.name}</h1>
-              <p>{repo.descriptionInModal}</p>
+              <p className="modal-p">{repo.descriptionInModal}</p>
               <ProjectLanguages
                 className="repo-languages"
                 logos={repo.languages}
               />
               <div className="modal-links">
-                <Button
-                  text="Visiter le site"
-                  newTab={true}
-                  href={repo.url}
-                  theme={theme}
-                />
-                <a href={repo.github}>
+                {repo.url && (
+                  <Button
+                    text="Visiter le site"
+                    newTab={true}
+                    href={repo.url}
+                    theme={theme}
+                  />
+                )}
+                <a href={repo.github} target="_blank">
                   <i className="fa-brands fa-github"></i>
                 </a>
               </div>
-              <h2>Compétences clés</h2>
+              <h2 className="modal-h2">Compétences clés</h2>
               {repo.keySkills && (
                 <div className="modal-skills">
                   {repo.keySkills.map((skillSentence, i) => {

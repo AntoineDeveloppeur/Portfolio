@@ -38,6 +38,10 @@
   justify-content: center;
 }
 
+.contact-heading-img-div img {
+  max-width: 200px;
+}
+
 .blog-heading-img-div {
   align-items: center;
   justify-content: center;

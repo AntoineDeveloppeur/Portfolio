@@ -150,6 +150,13 @@ const skills = {
           },
         },
         {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
