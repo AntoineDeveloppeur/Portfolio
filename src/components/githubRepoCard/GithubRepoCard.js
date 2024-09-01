@@ -77,7 +77,7 @@ export default function GithubRepoCard({ repo, theme }) {
             overlayClassName="overlay"
           >
             <div className="modal-screenshots">
-              <div className="modal-screeshots-desktop">
+              <div className="modal-screenshots-desktop">
                 {repo.screenshotsDesktopLink &&
                   repo.screenshotsDesktopLink.map((screenshot) => (
                     <img
@@ -86,7 +86,7 @@ export default function GithubRepoCard({ repo, theme }) {
                     />
                   ))}
               </div>
-              <div className="modal-screeshots-mobile">
+              <div className="modal-screenshots-mobile">
                 {repo.screenshotsMobileLink &&
                   repo.screenshotsMobileLink.map((screenshot) => (
                     <img
@@ -111,11 +111,11 @@ export default function GithubRepoCard({ repo, theme }) {
                 <Button
                   text="Visiter le site"
                   newTab={true}
-                  // href={greeting.resumeLink}
+                  href={repo.url}
                   theme={theme}
                 />
                 <a href={repo.github}>
-                  <i class="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                 </a>
               </div>
               <h2>Compétences clés</h2>

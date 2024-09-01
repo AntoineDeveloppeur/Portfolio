@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Antoine Verove",
   // nickname: "Antoine Verove",
   subTitle:
-    "Je transforme vos idées en applications web puissantes et esthétiques",
+    "Je transforme vos idées en applications web performantes et esthétiques",
   resumeLink:
     "https://drive.google.com/file/d/1GZUnQ5aZLCjVZZg4WoafVWixha3h96zk/view?usp=drive_link",
   portfolio_repository: "https://github.com/AntoineDeveloppeur/",
