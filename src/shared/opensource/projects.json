@@ -7,7 +7,7 @@
       "url": "https://antoinedeveloppeur.github.io/Kasa/",
       "github": "https://github.com/AntoineDeveloppeur/Kasa.git",
       "description": "Développement frontend avec React",
-      "descriptionInModal": "Dans ce projet d'étude, j'ai implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
+      "descriptionInModal": "Dans ce projet d'étude, j'ai implémenté le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
       "keySkills": [
         "⚡ Configurer la navigation entre les pages de l'application avec React Router",
         "⚡ Développer des éléments de l'interface d'un site web grâce à des composants React",
@@ -16,11 +16,11 @@
         "⚡ Utiliser les hooks useState, useEffect, useParams et hooks personnalisés"
       ],
       "screenshotsDesktopLink": [
-        "kasa_desktop.jpg",
-        "kasa_desktop2.jpg"
+        "kasa_desktop.webp",
+        "kasa_desktop2.webp"
       ],
       "screenshotsMobileLink": [
-        "kasa_mobile.jpg"
+        "kasa_mobile.webp"
       ],
       "isFork": false,
       "languages": [
@@ -52,8 +52,8 @@
         "⚡ Librairies utilisés : JSONWebToken, sharp, multer"
       ],
       "screenshotsDesktopLink": [
-        "mon_vieux_grimoire.jpg",
-        "mon_vieux_grimoire2.jpg"
+        "mon_vieux_grimoire.webp",
+        "mon_vieux_grimoire2.webp"
       ],
       "isFork": false,
       "languages": [
@@ -81,12 +81,12 @@
         "⚡ Valider la qualité du code avec W3C"
       ],
       "screenshotsDesktopLink": [
-        "booki_desktop.jpg",
-        "booki_desktop2.jpg"
+        "booki_desktop.webp",
+        "booki_desktop2.webp"
       ],
       "screenshotsMobileLink": [
-        "booki_mobile.jpg",
-        "booki_mobile2.jpg"
+        "booki_mobile.webp",
+        "booki_mobile2.webp"
       ],
       "isFork": false,
       "languages": [
@@ -116,11 +116,11 @@
         "⚡ Améliorer l'accessibilité en aidant les lecteurs d'écran"
       ],
       "screenshotsDesktopLink": [
-        "nina_carducci_desktop.jpg",
-        "nina_carducci_desktop2.jpg"
+        "nina_carducci_desktop.webp",
+        "nina_carducci_desktop2.webp"
       ],
       "screenshotsMobileLink": [
-        "nina_carducci_mobile.jpg"
+        "nina_carducci_mobile.webp"
       ],
       "isFork": false,
       "languages": [

@@ -704,7 +704,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contactez moi",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "animated_ashutosh.webp",
     description:
       "Ecrivez une brève description de votre projet et votre numéro de téléphone à antoine.verove@gmail.com",
   },
