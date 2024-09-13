@@ -16,8 +16,7 @@
         "⚡ Utiliser les hooks useState, useEffect, useParams et hooks personnalisés"
       ],
       "screenshotsDesktopLink": [
-        "kasa_desktop.webp",
-        "kasa_desktop2.webp"
+        "kasa_desktop.webp"
       ],
       "screenshotsMobileLink": [
         "kasa_mobile.webp"
@@ -81,12 +80,10 @@
         "⚡ Valider la qualité du code avec W3C"
       ],
       "screenshotsDesktopLink": [
-        "booki_desktop.webp",
-        "booki_desktop2.webp"
+        "booki_desktop.webp"
       ],
       "screenshotsMobileLink": [
-        "booki_mobile.webp",
-        "booki_mobile2.webp"
+        "booki_mobile.webp"
       ],
       "isFork": false,
       "languages": [
@@ -116,8 +113,7 @@
         "⚡ Améliorer l'accessibilité en aidant les lecteurs d'écran"
       ],
       "screenshotsDesktopLink": [
-        "nina_carducci_desktop.webp",
-        "nina_carducci_desktop2.webp"
+        "nina_carducci_desktop.webp"
       ],
       "screenshotsMobileLink": [
         "nina_carducci_mobile.webp"

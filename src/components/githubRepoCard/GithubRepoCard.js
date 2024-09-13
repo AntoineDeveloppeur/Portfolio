@@ -75,18 +75,18 @@ export default function GithubRepoCard({ repo, theme }) {
             overlayClassName="overlay"
           >
             <div className="modal-screenshots">
-              <div className="modal-screenshots-desktop">
-                {repo.screenshotsDesktopLink &&
-                  repo.screenshotsDesktopLink.map((screenshot) => (
+              <div className="modal-screenshots-mobile">
+                {repo.screenshotsMobileLink &&
+                  repo.screenshotsMobileLink.map((screenshot) => (
                     <img
                       src={require(`../../assets/images/${screenshot}`)}
                       alt={screenshot}
                     />
                   ))}
               </div>
-              <div className="modal-screenshots-mobile">
-                {repo.screenshotsMobileLink &&
-                  repo.screenshotsMobileLink.map((screenshot) => (
+              <div className="modal-screenshots-desktop">
+                {repo.screenshotsDesktopLink &&
+                  repo.screenshotsDesktopLink.map((screenshot) => (
                     <img
                       src={require(`../../assets/images/${screenshot}`)}
                       alt={screenshot}
