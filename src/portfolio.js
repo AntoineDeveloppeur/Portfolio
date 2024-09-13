@@ -664,7 +664,8 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projets",
-  description: "",
+  description:
+    "Découvrez les projets d'études les plus marquants de mon parcours. Cliquez pour explorer les compétences que j'ai acquises.",
   avatar_image_path: "projects_image.svg",
 };
 

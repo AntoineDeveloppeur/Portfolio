@@ -114,9 +114,14 @@ export default function GithubRepoCard({ repo, theme }) {
                     theme={theme}
                   />
                 )}
-                <a href={repo.github} target="_blank">
-                  <i className="fa-brands fa-github"></i>
-                </a>
+                {repo.github && (
+                  <Button
+                    text="Voir le code"
+                    newTab={true}
+                    href={repo.github}
+                    theme={theme}
+                  />
+                )}
               </div>
               <h2 className="modal-h2">Compétences clés</h2>
               {repo.keySkills && (
