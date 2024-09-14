@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b6d9938e094af943cac88c189a27b6e",
+    "revision": "97b52e96ead1d17d19dad4d7c6abbb4c",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "ce6e67d846ff47a2d958",
-    "url": "/portfolio/static/css/main.f649d115.chunk.css"
+    "revision": "433073f90d6330e305bf",
+    "url": "/portfolio/static/css/main.731c850c.chunk.css"
   },
   {
-    "revision": "79a0f55768fc94bd8aea",
-    "url": "/portfolio/static/js/2.87cda894.chunk.js"
+    "revision": "2a9ab5a423a320dfac23",
+    "url": "/portfolio/static/js/2.f2c296eb.chunk.js"
   },
   {
-    "revision": "ce6e67d846ff47a2d958",
-    "url": "/portfolio/static/js/main.a2f0f77e.chunk.js"
+    "revision": "433073f90d6330e305bf",
+    "url": "/portfolio/static/js/main.5c824e64.chunk.js"
   },
   {
     "revision": "f95c19c37ddd61b778bb",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/portfolio/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "6f2c9da1930d77c83566a063b6fa7e63",
+    "url": "/portfolio/static/media/Design sans titre (3).6f2c9da1.png"
   },
   {
     "revision": "4457817ac2b9993c65e81aa05828fe9c",
@@ -56,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/address_image.16559172.svg"
   },
   {
-    "revision": "a2895e708de1b1322ee277cc989486e4",
-    "url": "/portfolio/static/media/animated_ashutosh.a2895e70.png"
+    "revision": "cecdeb265a78a3633cb3c0cab494526a",
+    "url": "/portfolio/static/media/animated_ashutosh.cecdeb26.webp"
   },
   {
     "revision": "dcd6dee2bd7458a4a576dc131506fd83",
@@ -68,20 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/blogs_image.058eca4c.svg"
   },
   {
-    "revision": "ccef32e0caca8a4f27094d92239b4f90",
-    "url": "/portfolio/static/media/booki_desktop.ccef32e0.jpg"
+    "revision": "3c108d6635333bd554a1e9b1c5c8efeb",
+    "url": "/portfolio/static/media/booki_desktop.3c108d66.webp"
   },
   {
-    "revision": "ce657f4b7b6c564eabbe513c78118f1b",
-    "url": "/portfolio/static/media/booki_desktop2.ce657f4b.jpg"
-  },
-  {
-    "revision": "c3348179b2ce14102274cbc56e7e848a",
-    "url": "/portfolio/static/media/booki_mobile.c3348179.jpg"
-  },
-  {
-    "revision": "dc7c443060809b70d5c1a4051608df45",
-    "url": "/portfolio/static/media/booki_mobile2.dc7c4430.jpg"
+    "revision": "7541d45c5ae6b346f7ad156c3913a581",
+    "url": "/portfolio/static/media/booki_mobile.7541d45c.webp"
   },
   {
     "revision": "cacbc42b661f39344af81c631d8d36a9",
@@ -224,16 +220,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/jsFramework.5b4a6449.svg"
   },
   {
-    "revision": "0c3c122d9ba9b6dc91dbe2565ace189e",
-    "url": "/portfolio/static/media/kasa_desktop.0c3c122d.jpg"
+    "revision": "b84c2d8daf32e33f7242088865e120a8",
+    "url": "/portfolio/static/media/kasa_desktop.b84c2d8d.webp"
   },
   {
-    "revision": "949052edca2296ef56cf280034f1454f",
-    "url": "/portfolio/static/media/kasa_desktop2.949052ed.jpg"
-  },
-  {
-    "revision": "cf17ceb422ebbba3caddc49fc8d85cdd",
-    "url": "/portfolio/static/media/kasa_mobile.cf17ceb4.jpg"
+    "revision": "dae31d7ab4be5a121d4c4b7ba6a3343b",
+    "url": "/portfolio/static/media/kasa_mobile.dae31d7a.webp"
   },
   {
     "revision": "c597fbded5de799dfb9abc3fc4f1c26f",
@@ -244,28 +236,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/manOnTable.83ac24fb.svg"
   },
   {
-    "revision": "8b90f5fc2fe22004b52887d1ee9f7d78",
-    "url": "/portfolio/static/media/mon_vieux_grimoire.8b90f5fc.jpg"
+    "revision": "28a393d28f365e2c9143703c4e28f596",
+    "url": "/portfolio/static/media/mon_vieux_grimoire.28a393d2.webp"
   },
   {
-    "revision": "af841491726a2a12cd968ee67037faed",
-    "url": "/portfolio/static/media/mon_vieux_grimoire2.af841491.jpg"
+    "revision": "9924939fe5900433763aeb1e3f3951f1",
+    "url": "/portfolio/static/media/mon_vieux_grimoire2.9924939f.webp"
   },
   {
     "revision": "069938a84edd6ebf383c318e9feb5d4c",
     "url": "/portfolio/static/media/muffito_logo.069938a8.png"
   },
   {
-    "revision": "8acce1ab9fcc722456329e14cb5a95ab",
-    "url": "/portfolio/static/media/nina_carducci_desktop.8acce1ab.jpg"
+    "revision": "311e0003d5bf082f38d89a263b6da3d1",
+    "url": "/portfolio/static/media/nina_carducci_desktop.311e0003.webp"
   },
   {
-    "revision": "c3cdf492eaf22bd22b1c37bc20d88a42",
-    "url": "/portfolio/static/media/nina_carducci_desktop2.c3cdf492.jpg"
-  },
-  {
-    "revision": "732db42f4c04b48af556de9cf9c150c8",
-    "url": "/portfolio/static/media/nina_carducci_mobile.732db42f.jpg"
+    "revision": "867f2883b9680d6db32159d861bc8ebd",
+    "url": "/portfolio/static/media/nina_carducci_mobile.867f2883.webp"
   },
   {
     "revision": "95a12a2b8c3149cce2175679755c4b4d",
